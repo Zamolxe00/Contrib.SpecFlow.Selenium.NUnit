@@ -121,6 +121,11 @@ namespace Baseclass.Contrib.SpecFlow.Selenium.NUnit
             }
         }
 
+        public UnitTestGeneratorTraits GetTraits()
+        {
+            return new UnitTestGeneratorTraits() ;
+        }
+
         public void SetTestClass(TechTalk.SpecFlow.Generator.TestClassGenerationContext generationContext, string featureTitle, string featureDescription)
         {
             codeDomHelper.AddAttribute(generationContext.TestClass, TESTFIXTURE_ATTR);

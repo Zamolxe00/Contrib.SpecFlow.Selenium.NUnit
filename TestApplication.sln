@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestApplication", "TestApplication\TestApplication.csproj", "{B31C6666-F34D-4FF6-A766-4D391DA87583}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestApplication.UiTests", "TestApplication.UiTests\TestApplication.UiTests.csproj", "{8AC76206-C5B8-4E21-BC0A-E3539511A859}"
@@ -11,6 +13,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{D6B03A
 		.nuget\NuGet.exe = .nuget\NuGet.exe
 		.nuget\NuGet.targets = .nuget\NuGet.targets
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Baseclass.Contrib.SpecFlow.Selenium.NUnit", "Baseclass.Contrib.SpecFlow.Selenium.NUnit\Baseclass.Contrib.SpecFlow.Selenium.NUnit\Baseclass.Contrib.SpecFlow.Selenium.NUnit.csproj", "{8B277E9F-1FDB-4D30-944B-A8C17308F62B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Baseclass.Contrib.SpecFlow.Selenium.NUnit.Bindings", "Baseclass.Contrib.SpecFlow.Selenium.NUnit\Baseclass.Contrib.SpecFlow.Selenium.NUnit.Bindings\Baseclass.Contrib.SpecFlow.Selenium.NUnit.Bindings.csproj", "{A3FBBF03-5A6E-450E-A176-FE39A75CD8DC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -26,6 +32,14 @@ Global
 		{8AC76206-C5B8-4E21-BC0A-E3539511A859}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8AC76206-C5B8-4E21-BC0A-E3539511A859}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8AC76206-C5B8-4E21-BC0A-E3539511A859}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B277E9F-1FDB-4D30-944B-A8C17308F62B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B277E9F-1FDB-4D30-944B-A8C17308F62B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B277E9F-1FDB-4D30-944B-A8C17308F62B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B277E9F-1FDB-4D30-944B-A8C17308F62B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3FBBF03-5A6E-450E-A176-FE39A75CD8DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3FBBF03-5A6E-450E-A176-FE39A75CD8DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3FBBF03-5A6E-450E-A176-FE39A75CD8DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3FBBF03-5A6E-450E-A176-FE39A75CD8DC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

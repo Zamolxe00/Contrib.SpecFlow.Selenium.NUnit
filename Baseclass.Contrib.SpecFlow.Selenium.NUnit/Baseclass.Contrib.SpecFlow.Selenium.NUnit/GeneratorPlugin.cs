@@ -16,6 +16,11 @@ namespace Baseclass.Contrib.SpecFlow.Selenium.NUnit
 {
     public class GeneratorPlugin : IGeneratorPlugin
     {
+        public void Initialize(GeneratorPluginEvents generatorPluginEvents, GeneratorPluginParameters generatorPluginParameters)
+        {
+
+        }
+
         public void RegisterConfigurationDefaults(TechTalk.SpecFlow.Generator.Configuration.SpecFlowProjectConfiguration specFlowConfiguration)
         {
             

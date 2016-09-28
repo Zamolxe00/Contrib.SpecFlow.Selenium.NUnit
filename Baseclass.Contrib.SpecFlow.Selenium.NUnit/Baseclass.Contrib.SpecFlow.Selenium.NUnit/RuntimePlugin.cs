@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using TechTalk.SpecFlow.Infrastructure;
+using TechTalk.SpecFlow.Plugins;
 using TechTalk.SpecFlow.UnitTestProvider;
 
 [assembly: RuntimePlugin(typeof(Baseclass.Contrib.SpecFlow.Selenium.NUnit.RuntimePlugin))]
@@ -27,6 +28,11 @@ namespace Baseclass.Contrib.SpecFlow.Selenium.NUnit
             var runtimeProvider = new NUnitRuntimeProvider();
 
             container.RegisterInstanceAs<IUnitTestRuntimeProvider>(runtimeProvider, "SeleniumNUnit");
+        }
+
+        public void Initialize(RuntimePluginEvents runtimePluginEvents, RuntimePluginParameters runtimePluginParameters)
+        {
+            
         }
     }
 }
